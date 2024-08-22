@@ -1,0 +1,68 @@
+/* basic reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+
+/*page styles */
+.container {
+    display: grid;
+    grid-template: 160px 6fr / 1fr 4fr;
+    width: 100vw;;
+    height: 100vh;
+}
+
+.header {
+    grid-column-start: 2;
+}
+
+.sidebar {
+    grid-row: 1 / span 2;
+    background-color: #2492D4;
+}
+
+.main-content {
+    background-color: #E2E8F0;
+}
