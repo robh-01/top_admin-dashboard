@@ -7,13 +7,53 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
-      <div class="header"></div>
+      <div class="header">
+        <div class="header-left">
+          <div class="search">
+            <img
+              src="./images&icons/search-icon.svg"
+              alt=""
+              class="search icon"
+            /><input type="text" />
+          </div>
+          <div class="profile-detail">
+            <img src="./images&icons/lionAvatar.png" alt="" class="profile" />
+            <div class="bio">
+              <p>Hi there,</p>
+              <p class="name">Sher Bahadur(@sherey)</p>
+            </div>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="profile-section">
+            <img
+              src="./images&icons/notification.svg"
+              alt=""
+              class="notification icon"
+            />
+            <img
+              src="./images&icons/lionAvatar.png"
+              alt=""
+              class="profile small"
+            />
+            <p>Sher Bahadur</p>
+          </div>
+          <div class="buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </div>
       <div class="sidebar">
         <div class="dashboard-icon">
           <img src="./images&icons/dashboard.svg" alt="" /><span
@@ -42,25 +82,189 @@
             >
           </li>
         </ul>
-          <ul class="sec-dashboard-settings">
-            <li>
-              <img src="./images&icons/settings.svg" alt="" /><span
-                >Settings</span
-              >
-            </li>
-            <li>
-              <img src="./images&icons/support.svg" alt="" /><span
-                >Support</span
-              >
-            </li>
-            <li>
-              <img src="./images&icons/privacy.svg" alt="" /><span
-                >Privacy</span
-              >
-            </li>
-          </ul>
+        <ul class="sec-dashboard-settings">
+          <li>
+            <img src="./images&icons/settings.svg" alt="" /><span
+              >Settings</span
+            >
+          </li>
+          <li>
+            <img src="./images&icons/support.svg" alt="" /><span>Support</span>
+          </li>
+          <li>
+            <img src="./images&icons/privacy.svg" alt="" /><span>Privacy</span>
+          </li>
+        </ul>
       </div>
-      <div class="main-content"></div>
+      <div class="main-content">
+        <div class="projects">
+          <p>Your Projects</p>
+          <div class="cards">
+            <div class="card">
+              <div class="title">Super Cool Project</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla,
+                delectus facilis rerum sequi totam unde commodi in tempora.
+              </p>
+              <div class="buttons">
+                <img src="./images&icons/star-plus.svg" alt="" class="btn1" />
+                <img
+                  src="./images&icons/eye-plus.svg "
+                  alt=""
+                  class="btn2"
+                /><img src="./images&icons/branch.svg" alt="" class="btn3" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="title">Less Cool Project</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                aperiam et fuga nemo aliquid laborum quibusdam harum. Quo
+                doloribus tempore libero omnis aspernatur ? Molestias,
+                voluptatum recusandae!
+              </p>
+              <div class="buttons">
+                <img
+                  src="./images&icons/star-plus.svg"
+                  alt=""
+                  class="btn1"
+                /><img
+                  src="./images&icons/eye-plus.svg"
+                  alt=""
+                  class="btn2"
+                /><img src="./images&icons/branch.svg" alt="" class="btn3" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="title">Impossible App</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facilis, praesentium!
+              </p>
+              <div class="buttons">
+                <img
+                  src="./images&icons/star-plus.svg"
+                  alt=""
+                  class="btn1"
+                /><img
+                  src="./images&icons/eye-plus.svg"
+                  alt=""
+                  class="btn2"
+                /><img src="./images&icons/branch.svg" alt="" class="btn3" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="title">Easy Peasy App</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                cupiditate a incidunt rem ea eaque fugit, blanditiis quibusdam
+                quaerat ratione!
+              </p>
+              <div class="buttons">
+                <img
+                  src="./images&icons/star-plus.svg"
+                  alt=""
+                  class="btn1"
+                /><img
+                  src="./images&icons/eye-plus.svg"
+                  alt=""
+                  class="btn2"
+                /><img src="./images&icons/branch.svg" alt="" class="btn3" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="title">Ad Blocker</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam eius accusamus, eaque aliquid iste labore reiciendis.
+              </p>
+              <div class="buttons">
+                <img
+                  src="./images&icons/star-plus.svg"
+                  alt=""
+                  class="btn1"
+                /><img
+                  src="./images&icons/eye-plus.svg"
+                  alt=""
+                  class="btn2"
+                /><img src="./images&icons/branch.svg" alt="" class="btn3" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="title">Money Maker</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                recusandae consequuntur repellendus porro tempora neque sint
+                adipisci ab autem similique!
+              </p>
+              <div class="buttons">
+                <img
+                  src="./images&icons/star-plus.svg"
+                  alt=""
+                  class="btn1"
+                /><img
+                  src="./images&icons/eye-plus.svg"
+                  alt=""
+                  class="btn2"
+                /><img src="./images&icons/branch.svg" alt="" class="btn3" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="announcements">
+          <p>Announcements</p>
+          <div class="announcement-card">
+            <div class="ann1">
+              <div class="title">Site Maintenance</div>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Laudantium rerum accusamus cupiditate?
+              </p>
+            </div>
+            <div class="ann2">
+              <div class="title">Community Share Dey</div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Officia recusandae enim sequi.
+              </p>
+            </div>
+            <div class="ann3">
+              <div class="title">Updated Privacy Policy</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
+                nostrum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="trending">
+          <p>Trending</p>
+          <div class="trending-card">
+            <div class="trend1">
+              <img src="./images&icons/lionAvatar.png" alt="" />
+              <p class="short-des">
+                @tegan<br /><span>World Peace Builder</span>
+              </p>
+            </div>
+            <div class="trend2">
+              <img src="./images&icons/lionAvatar.png" alt="" />
+              <p class="short-des">
+                @sherey<br /><span>Super Cool Project</span>
+              </p>
+            </div>
+            <div class="trend3">
+              <img src="./images&icons/lionAvatar.png" alt="" />
+              <p class="short-des">
+                @kendall<br /><span>Life Changing App</span>
+              </p>
+            </div>
+            <div class="trend4">
+              <img src="./images&icons/lionAvatar.png" alt="" />
+              <p class="short-des">@alex<br /><span>No Traffic Maker</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
