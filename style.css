@@ -103,14 +103,6 @@ img.profile.small {
   }
 }
 
-.header > .header-left > .search > span::before {
-  content: "X";
-  font-weight: 500;
-  font-size: 20px;
-  position: relative;
-  left: -32px;
-}
-
 .header-left .profile-detail {
   display: flex;
   align-items: center;
@@ -328,7 +320,7 @@ img.profile.small {
   flex-direction: column;
 }
 
-.trending-card > .trend > p{
+.trending-card > .trend > p {
   font-size: 14px;
   font-weight: 500;
 }
